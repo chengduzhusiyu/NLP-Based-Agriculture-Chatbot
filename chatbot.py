@@ -5,4 +5,9 @@ from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.preprocessing import LabelEncoder
 from sklearn.metrics import confusion_matrix
 from sklearn.naive_bayes import GaussianNB
-import r
+import re
+from nltk.stem.porter import PorterStemmer
+from sklearn.model_selection import train_test_split
+import keras
+from keras.models import Sequential
+from keras.layers import Dense
