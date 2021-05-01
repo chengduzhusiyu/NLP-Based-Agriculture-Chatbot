@@ -11,3 +11,12 @@ from sklearn.model_selection import train_test_split
 import keras
 from keras.models import Sequential
 from keras.layers import Dense
+from keras.utils import np_utils
+from keras.models import load_model
+import tensorflow
+
+
+
+
+def trainIntentModel():
+    # Load the dataset and prepare
