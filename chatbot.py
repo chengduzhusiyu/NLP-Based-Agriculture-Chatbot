@@ -19,4 +19,9 @@ import tensorflow
 
 
 def trainIntentModel():
-    # Load the dataset and prepare
+    # Load the dataset and prepare it to the train the model
+
+    # Importing dataset and splitting into words and labels
+    dataset = pd.read_csv('datasets/intent.csv', names=["Query", "Intent"])
+
+    X
