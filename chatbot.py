@@ -24,4 +24,11 @@ def trainIntentModel():
     # Importing dataset and splitting into words and labels
     dataset = pd.read_csv('datasets/intent.csv', names=["Query", "Intent"])
 
-    X
+    X = dataset["Query"]
+    y = dataset["Intent"]
+
+    unique_intent_list = list(set(y))
+
+    print("Intent Dataset successfully loaded!")
+    
+    # Clean and prepare the intent
