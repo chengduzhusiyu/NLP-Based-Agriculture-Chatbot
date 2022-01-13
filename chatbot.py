@@ -38,4 +38,10 @@ def trainIntentModel():
     for query in X:
         query = re.sub('[^a-zA-Z]', ' ', query)
 
-        # Tokenize senten
+        # Tokenize sentence
+        query = query.split(' ')
+
+        # Lemmatizing
+        tokenized_query = [ps.stem(word.lower()) for word in query]
+
+        # Recreate the sentence from toke
