@@ -31,4 +31,11 @@ def trainIntentModel():
 
     print("Intent Dataset successfully loaded!")
     
-    # Clean and prepare the intent
+    # Clean and prepare the intents corpus
+    queryCorpus = []
+    ps = PorterStemmer()
+
+    for query in X:
+        query = re.sub('[^a-zA-Z]', ' ', query)
+
+        # Tokenize senten
