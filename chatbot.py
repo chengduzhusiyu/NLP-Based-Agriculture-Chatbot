@@ -53,4 +53,7 @@ def trainIntentModel():
     print(queryCorpus)
     print("Corpus created")
     
- 
+    countVectorizer= CountVectorizer(max_features=800)
+    corpus = countVectorizer.fit_transform(queryCorpus).toarray()
+    print(corpus.shape)
+    print("Bag o
