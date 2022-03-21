@@ -61,4 +61,9 @@ def trainIntentModel():
     # Save the CountVectorizer
     pk.dump(countVectorizer, open("saved_state/IntentCountVectorizer.sav", 'wb'))
     print("Intent CountVectorizer saved!")
-  
+    
+    # Encode the intent classes
+    labelencoder_intent = LabelEncoder()
+    y = labelencoder_intent.fit_transform(y)
+    y = np_utils.to_categorical(y)
+   
