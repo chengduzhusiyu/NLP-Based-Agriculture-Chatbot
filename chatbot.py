@@ -66,4 +66,9 @@ def trainIntentModel():
     labelencoder_intent = LabelEncoder()
     y = labelencoder_intent.fit_transform(y)
     y = np_utils.to_categorical(y)
-   
+    print("Encoded the intent classes!")
+    print(y)
+    
+    # Return a dictionary, mapping labels to their integer values
+    res = {}
+    for cl in labelen
