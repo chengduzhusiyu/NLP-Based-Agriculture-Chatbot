@@ -88,4 +88,7 @@ def trainIntentModel():
     classifier.add(Dense(units = 96, kernel_initializer = 'uniform', activation = 'relu'))
 
     # Adding the output layer
-    classifier.add(Dense(units = 32, kernel_ini
+    classifier.add(Dense(units = 32, kernel_initializer = 'uniform', activation = 'softmax'))
+
+    # Compiling the ANN
+    classifier.compile(optimizer = 'adam', loss = 'categorical_crossentropy', me
