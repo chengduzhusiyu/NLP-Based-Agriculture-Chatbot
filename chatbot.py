@@ -91,4 +91,9 @@ def trainIntentModel():
     classifier.add(Dense(units = 32, kernel_initializer = 'uniform', activation = 'softmax'))
 
     # Compiling the ANN
-    classifier.compile(optimizer = 'adam', loss = 'categorical_crossentropy', me
+    classifier.compile(optimizer = 'adam', loss = 'categorical_crossentropy', metrics = ['accuracy'])
+    
+    # Fitting the ANN to the Training set
+    classifier.fit(corpus, y, batch_size = 10, epochs = 500)
+    
+    return class
