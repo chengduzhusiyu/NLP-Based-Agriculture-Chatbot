@@ -76,4 +76,9 @@ def trainIntentModel():
 
     intent_label_map = res
     print(intent_label_map)
-    print("Intent
+    print("Intent Label mapping obtained!")
+    
+    # Initialising the Aritifcial Neural Network
+    classifier = Sequential()
+
+    # Adding the input layer and the first hidden l
