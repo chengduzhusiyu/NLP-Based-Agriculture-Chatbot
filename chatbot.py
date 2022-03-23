@@ -85,4 +85,7 @@ def trainIntentModel():
     classifier.add(Dense(units = 96, kernel_initializer = 'uniform', activation = 'relu', input_dim = 133))
 
     # Adding the second hidden layer
- 
+    classifier.add(Dense(units = 96, kernel_initializer = 'uniform', activation = 'relu'))
+
+    # Adding the output layer
+    classifier.add(Dense(units = 32, kernel_ini
