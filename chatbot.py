@@ -71,4 +71,9 @@ def trainIntentModel():
     
     # Return a dictionary, mapping labels to their integer values
     res = {}
-    for cl in labelen
+    for cl in labelencoder_intent.classes_:
+        res.update({cl:labelencoder_intent.transform([cl])[0]})
+
+    intent_label_map = res
+    print(intent_label_map)
+    print("Intent
