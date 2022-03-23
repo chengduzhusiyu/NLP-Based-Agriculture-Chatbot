@@ -81,4 +81,8 @@ def trainIntentModel():
     # Initialising the Aritifcial Neural Network
     classifier = Sequential()
 
-    # Adding the input layer and the first hidden l
+    # Adding the input layer and the first hidden layer
+    classifier.add(Dense(units = 96, kernel_initializer = 'uniform', activation = 'relu', input_dim = 133))
+
+    # Adding the second hidden layer
+ 
