@@ -113,4 +113,9 @@ print("Intent model saved!")
 
 def trainEntityModel():
     # Importing dataset and splitting into words and labels
-    dataset = pd.read_csv('datasets/data-tags.csv', names=["wor
+    dataset = pd.read_csv('datasets/data-tags.csv', names=["word", "label"])
+    X = dataset.iloc[:, :-1].values
+    y = dataset.iloc[:, 1].values
+#     X = X.reshape(630,)
+    print(X)
+    print("Entity Dataset successfully lo
