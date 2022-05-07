@@ -118,4 +118,14 @@ def trainEntityModel():
     y = dataset.iloc[:, 1].values
 #     X = X.reshape(630,)
     print(X)
-    print("Entity Dataset successfully lo
+    print("Entity Dataset successfully loaded!")
+
+    entityCorpus=[]
+    ps = PorterStemmer()
+
+    # Stem words in X
+    for word in X.astype(str):
+        word = [ps.stem(word[0])]
+        entityCorpus.append(word)
+    
+    print
