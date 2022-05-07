@@ -128,4 +128,10 @@ def trainEntityModel():
         word = [ps.stem(word[0])]
         entityCorpus.append(word)
     
-    print
+    print(entityCorpus)
+    X = entityCorpus
+    from numpy import array
+    X = array(X)
+    X = X.reshape(len(X),)
+    
+    # Create a bag of words model for wor
