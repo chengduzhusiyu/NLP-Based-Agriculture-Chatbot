@@ -142,4 +142,8 @@ def trainEntityModel():
     print("Entity Bag of words created!")
     
     # Save CountVectorizer state
-    pk.dump(c
+    pk.dump(cv, open('saved_state/EntityCountVectorizer.sav', 'wb'))
+    print("Entity CountVectorizer state saved!")
+    
+    # Encoding categorical data of labels
+    labelencoder_y = LabelE
