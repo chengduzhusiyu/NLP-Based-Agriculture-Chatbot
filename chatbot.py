@@ -146,4 +146,8 @@ def trainEntityModel():
     print("Entity CountVectorizer state saved!")
     
     # Encoding categorical data of labels
-    labelencoder_y = LabelE
+    labelencoder_y = LabelEncoder()
+    y = labelencoder_y.fit_transform(y.astype(str))
+    print("Encoded the entity classes!")
+    
+    # Return a dict mapping labels to their integer valu
