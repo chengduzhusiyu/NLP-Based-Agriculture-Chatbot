@@ -175,4 +175,12 @@ def trainEntityModel():
 entity_label_map = trainEntityModel()
 
 loadedEntityCV = pk.load(open('saved_state/EntityCountVectorizer.sav', 'rb'))
-loadedEn
+loadedEntityClassifier = pk.load(open('saved_state/entity_model.sav', 'rb'))
+
+
+
+
+def getEntities(query):
+    query = loadedEntityCV.transform(query).toarray()
+    
+    response_tags = loadedE
