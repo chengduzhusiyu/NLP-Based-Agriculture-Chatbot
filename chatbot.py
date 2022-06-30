@@ -162,4 +162,8 @@ def trainEntityModel():
     classifier.fit(X, y)
     print("Entity Model trained successfully!")
     
-    #
+    # Save the entity classifier model
+    pk.dump(classifier, open('saved_state/entity_model.sav', 'wb'))
+    print("Trained entity model saved!")
+    
+    return entity_label_ma
