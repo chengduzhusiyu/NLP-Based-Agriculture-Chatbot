@@ -183,4 +183,9 @@ loadedEntityClassifier = pk.load(open('saved_state/entity_model.sav', 'rb'))
 def getEntities(query):
     query = loadedEntityCV.transform(query).toarray()
     
-    response_tags = loadedE
+    response_tags = loadedEntityClassifier.predict(query)
+    
+    entity_list=[]
+    for tag in response_tags:
+        if tag in entity_label_map.values():
+           
