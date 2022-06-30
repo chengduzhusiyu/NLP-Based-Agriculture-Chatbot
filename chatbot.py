@@ -155,4 +155,11 @@ def trainEntityModel():
     for cl in labelencoder_y.classes_:
         res.update({cl:labelencoder_y.transform([cl])[0]})
     entity_label_map = res
-    print("Entity Label mapping o
+    print("Entity Label mapping obtained!")
+    
+    # Fit classifier to dataset
+    classifier = GaussianNB()
+    classifier.fit(X, y)
+    print("Entity Model trained successfully!")
+    
+    #
