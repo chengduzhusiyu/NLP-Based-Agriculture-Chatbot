@@ -203,4 +203,10 @@ with open('datasets/intents.json') as json_data:
     intents = json.load(json_data)
 
 # Load model to predict user result
-loadedIntentClassifier = load
+loadedIntentClassifier = load_model('saved_state/intent_model.h5')
+loaded_intent_CV = pk.load(open('saved_state/IntentCountVectorizer.sav', 'rb'))    
+
+USER_INTENT = ""
+
+while True:
+  
