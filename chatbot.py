@@ -188,4 +188,15 @@ def getEntities(query):
     entity_list=[]
     for tag in response_tags:
         if tag in entity_label_map.values():
-           
+            entity_list.append(list(entity_label_map.keys())[list(entity_label_map.values()).index(tag)])
+
+    return entity_list
+
+
+
+
+
+import json
+import random
+
+with
