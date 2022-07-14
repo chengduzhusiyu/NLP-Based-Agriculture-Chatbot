@@ -199,4 +199,8 @@ def getEntities(query):
 import json
 import random
 
-with
+with open('datasets/intents.json') as json_data:
+    intents = json.load(json_data)
+
+# Load model to predict user result
+loadedIntentClassifier = load
