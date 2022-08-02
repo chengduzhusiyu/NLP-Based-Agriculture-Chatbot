@@ -209,4 +209,13 @@ loaded_intent_CV = pk.load(open('saved_state/IntentCountVectorizer.sav', 'rb'))
 USER_INTENT = ""
 
 while True:
-  
+    user_query = input()
+    
+    query = re.sub('[^a-zA-Z]', ' ', user_query)
+
+    # Tokenize sentence
+    query = query.split(' ')
+
+    # Lemmatizing
+    ps = PorterStemmer()
+    tokenized
