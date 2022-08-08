@@ -218,4 +218,9 @@ while True:
 
     # Lemmatizing
     ps = PorterStemmer()
-    tokenized
+    tokenized_query = [ps.stem(word.lower()) for word in query]
+
+    # Recreate the sentence from tokens
+    processed_text = ' '.join(tokenized_query)
+    
+    # Transform the quer
