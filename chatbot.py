@@ -227,4 +227,8 @@ while True:
     processed_text = loaded_intent_CV.transform([processed_text]).toarray()
 
     # Make the prediction
-    predicted_Intent = loadedIntentClassifi
+    predicted_Intent = loadedIntentClassifier.predict(processed_text)
+#     print(predicted_Intent)
+    result = np.argmax(predicted_Intent, axis=1)
+    
+    for key, value in intent_label_map.items():
