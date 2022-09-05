@@ -238,4 +238,9 @@ while True:
             break
         
     for i in intents['intents']:
-        if i['tag'] ==
+        if i['tag'] == USER_INTENT:
+            print(random.choice(i['responses']))
+
+            
+    # Extract entities from text
+    entities = getEntities(tokenized_
