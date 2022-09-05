@@ -232,3 +232,10 @@ while True:
     result = np.argmax(predicted_Intent, axis=1)
     
     for key, value in intent_label_map.items():
+        if value==result[0]:
+            #print(key)
+            USER_INTENT = key
+            break
+        
+    for i in intents['intents']:
+        if i['tag'] ==
