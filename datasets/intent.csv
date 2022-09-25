@@ -28,4 +28,9 @@ When do you open today?,opentoday
 What are your hours today?,opentoday
 Who is your father?,family
 What is your father's name?,family
-Wh
+What is your mother's name?,family
+Do you have parents?,family
+Do you have siblings?,family
+Who is you wife?,family
+What is your wife's name?,family
+Are you married?,
