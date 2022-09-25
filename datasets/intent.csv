@@ -2,4 +2,14 @@ Query,Intent
 Hello bot!,greeting
 Hi,greeting
 Hello!,greeting
-Hey there
+Hey there,greeting
+Hey,greeting
+Namaskar,greeting
+Namaste,greeting
+Bye,goodbye
+See you later,goodbye
+Goodbye,goodbye
+Thanks,thanks
+Thank you,thanks
+That's helpful,thanks
+Thank  you so muc
