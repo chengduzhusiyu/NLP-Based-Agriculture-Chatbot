@@ -51,4 +51,11 @@ Are you doing okay?,wellness
 Is everything okay?,wellness
 Are you all right?,wellness
 You alright?,wellness
-How was your day?,enquireab
+How was your day?,enquireaboutday
+How is your day going?,enquireaboutday
+How is your day?,enquireaboutday
+I need help!,askinghelp
+Need help!,askinghelp
+Help me please,askinghelp
+Help me,askinghelp
+Help,a
