@@ -12,4 +12,6 @@
          "responses": ["Happy to help!", "Any time!", "My pleasure."]
         },
         {"tag": "hours",
-         "patterns": ["What hours are y
+         "patterns": ["What hours are you open?", "What are your hours?", "When are you open?" ],
+         "responses": ["We're open every day 9am-9pm.", "Our hours are 9am-9pm every day."]
+  
