@@ -14,4 +14,7 @@
         {"tag": "hours",
          "patterns": ["What hours are you open?", "What are your hours?", "When are you open?" ],
          "responses": ["We're open every day 9am-9pm.", "Our hours are 9am-9pm every day."]
-  
+        },
+        {"tag": "buy",
+         "patterns": ["how i can buy crops online?", "how i can buy crops from farmer?" ],
+         "responses": ["Please visit our websit
