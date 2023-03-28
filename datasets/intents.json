@@ -17,4 +17,7 @@
         },
         {"tag": "buy",
          "patterns": ["how i can buy crops online?", "how i can buy crops from farmer?" ],
-         "responses": ["Please visit our websit
+         "responses": ["Please visit our website https://farmer.gov.in/"]
+        },
+        {"tag": "sell",
+         "patterns": ["how I can sell crops online?", "how I can sell my crops?", "best way to
