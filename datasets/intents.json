@@ -25,4 +25,7 @@
         },
         {"tag": "opentoday",
          "patterns": ["Are you open today?", "When do you open today?", "What are your hours today?"],
-         "responses": ["We're open every day from 9am-9pm.", "O
+         "responses": ["We're open every day from 9am-9pm.", "Our hours are 9am-9pm every day."]
+        },
+        {"tag": "family",
+         "patterns": ["Who is your father?", "What is your father's name?", "What is your
