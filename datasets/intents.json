@@ -20,4 +20,8 @@
          "responses": ["Please visit our website https://farmer.gov.in/"]
         },
         {"tag": "sell",
-         "patterns": ["how I can sell crops online?", "how I can sell my crops?", "best way to
+         "patterns": ["how I can sell crops online?", "how I can sell my crops?", "best way to sell product?" , "how farmer can sell their product?"],
+         "responses": ["Please visit our website https://farmer.gov.in/"]
+        },
+        {"tag": "opentoday",
+ 
