@@ -32,4 +32,8 @@
          "responses": ["i don't have knowledge about my family."]
         },
         {"tag": "sarcasm",
-         "patterns": ["Are you a God?", "How old are you?", "Are you a man?","Are you a bot?", "Do you have a job?" ,"Who is your best friend?","Am I you
+         "patterns": ["Are you a God?", "How old are you?", "Are you a man?","Are you a bot?", "Do you have a job?" ,"Who is your best friend?","Am I your friend?"],
+         "responses": ["i'm not able to understand your question.", "Please ask some related questions."]
+        },
+	{"tag": "wellness",
+         "patte
