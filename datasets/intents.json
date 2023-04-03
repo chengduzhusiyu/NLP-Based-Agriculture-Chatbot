@@ -28,4 +28,7 @@
          "responses": ["We're open every day from 9am-9pm.", "Our hours are 9am-9pm every day."]
         },
         {"tag": "family",
-         "patterns": ["Who is your father?", "What is your father's name?", "What is your
+         "patterns": ["Who is your father?", "What is your father's name?", "What is your mother's name?","Do you have parents?" ,"Do you have siblings?" ],
+         "responses": ["i don't have knowledge about my family."]
+        },
+        {"
