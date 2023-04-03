@@ -31,4 +31,5 @@
          "patterns": ["Who is your father?", "What is your father's name?", "What is your mother's name?","Do you have parents?" ,"Do you have siblings?" ],
          "responses": ["i don't have knowledge about my family."]
         },
-        {"
+        {"tag": "sarcasm",
+         "patterns": ["Are you a God?", "How old are you?", "Are you a man?","Are you a bot?", "Do you have a job?" ,"Who is your best friend?","Am I you
