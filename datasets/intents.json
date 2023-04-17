@@ -45,4 +45,7 @@
         },
 	{"tag": "askinghelp",
          "patterns": ["I need help!", "Need help!", "Help me please", "Help me", "Can you do something for me?", "Answer my question"],
-         "responses": ["i'm here to help you.", "i can help you.", "i'm here to solve your queries."
+         "responses": ["i'm here to help you.", "i can help you.", "i'm here to solve your queries."]
+        },
+	{"tag": "outofscope",
+         "patterns": ["Who is the President?", "Who is the Prime Minister?", "What is my mother's name?", "Are you a supporter of BJ
