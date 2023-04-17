@@ -41,4 +41,7 @@
         },
 	{"tag": "enquireaboutday",
          "patterns": ["How was your day?", "How is your day going?", "How is your day?"],
-         "
+         "responses": ["It's been great.", "It's been good."]
+        },
+	{"tag": "askinghelp",
+         "patterns": ["I need help!", "Need help!", "Help me please", "Help 
