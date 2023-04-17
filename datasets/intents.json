@@ -37,4 +37,8 @@
         },
 	{"tag": "wellness",
          "patterns": ["How are you?", "How you doing?", "How are you doing?","Are you doing well?", "Are you okay?" ,"Are you fine?","Are you doing okay?"],
-         "responses": ["i'm cool.", "always cool.
+         "responses": ["i'm cool.", "always cool.", "i'm ok.", "i'm fine."]
+        },
+	{"tag": "enquireaboutday",
+         "patterns": ["How was your day?", "How is your day going?", "How is your day?"],
+         "
