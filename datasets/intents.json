@@ -48,4 +48,5 @@
          "responses": ["i'm here to help you.", "i can help you.", "i'm here to solve your queries."]
         },
 	{"tag": "outofscope",
-         "patterns": ["Who is the President?", "Who is the Prime Minister?", "What is my mother's name?", "Are you a supporter of BJ
+         "patterns": ["Who is the President?", "Who is the Prime Minister?", "What is my mother's name?", "Are you a supporter of BJP?", "Are you active in politics?"],
+         "responses": ["your question is out of my knowledge.", "i'm not able to answer your question.", "i don't have knowledge about
