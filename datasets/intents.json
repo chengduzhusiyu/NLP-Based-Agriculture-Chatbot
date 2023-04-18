@@ -49,4 +49,7 @@
         },
 	{"tag": "outofscope",
          "patterns": ["Who is the President?", "Who is the Prime Minister?", "What is my mother's name?", "Are you a supporter of BJP?", "Are you active in politics?"],
-         "responses": ["your question is out of my knowledge.", "i'm not able to answer your question.", "i don't have knowledge about
+         "responses": ["your question is out of my knowledge.", "i'm not able to answer your question.", "i don't have knowledge about that."]
+        },
+	{"tag": "cottonweather",
+         "patterns": ["which weather is suitable for cotton?", "what is temperature for cotton crop?", "cotton crop grows in w
