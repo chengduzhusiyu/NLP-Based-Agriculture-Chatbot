@@ -53,4 +53,6 @@
         },
 	{"tag": "cottonweather",
          "patterns": ["which weather is suitable for cotton?", "what is temperature for cotton crop?", "cotton crop grows in which temperature?", "temprature for cotton ", "temperature require for cotton crop?"],
-         "responses": ["During active growth, the ideal
+         "responses": ["During active growth, the ideal air temperature is 70 to 100°F (21-37°C).", "ideal air temperature is 70 to 100°F.", "21-37°C temperature is required."]
+        },
+	{"tag": "cottoncondit
