@@ -64,4 +64,5 @@
          "responses": ["The optimum growing temperature is about 25°C.", "minimum and maximum growth temperatures of 3° to 4°C and 30° to 32°C, respectively."]
         },
 	{"tag": "wheatcondition",
-         "patterns": ["which condition is suitable for wheat crop?", "which condition required for wheat crop?", "condition for wheat crop", "conditio
+         "patterns": ["which condition is suitable for wheat crop?", "which condition required for wheat crop?", "condition for wheat crop", "condition suitable for wheat", "condition for more wheat crop production", "which land is suitable for wheat crop"],
+         "responses": ["it needs 12 to 15 inch
