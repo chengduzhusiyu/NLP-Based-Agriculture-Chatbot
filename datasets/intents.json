@@ -61,4 +61,6 @@
         },
 	{"tag": "wheatweather",
          "patterns": ["which weather is suitable for wheat?", "what is temperature for wheat crop?", "wheat grows in which temperature?","temperature for wheat", "temperature require for wheat crop?"],
-         "responses": ["The optimu
+         "responses": ["The optimum growing temperature is about 25°C.", "minimum and maximum growth temperatures of 3° to 4°C and 30° to 32°C, respectively."]
+        },
+	{"tag": "wheatcon
