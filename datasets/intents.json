@@ -60,4 +60,5 @@
          "responses": ["It require a lot of heat and plenty of sunshine.", "It prefers warm and humid climate.","Cotton is a plant that needs a long frost-free period."]
         },
 	{"tag": "wheatweather",
-         "patterns": ["which weather is suitable for wheat?", "what is
+         "patterns": ["which weather is suitable for wheat?", "what is temperature for wheat crop?", "wheat grows in which temperature?","temperature for wheat", "temperature require for wheat crop?"],
+         "responses": ["The optimu
