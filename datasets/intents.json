@@ -57,4 +57,7 @@
         },
 	{"tag": "cottoncondition",
          "patterns": ["which condition is suitable for cotton crop?", "which condition required for cotton crop?", "condition for cotton crop", "condition suitable for cotton", "condition for more cotton crop production"],
-         "responses": ["It require a lot of heat and plenty of sunshine.", "It prefers warm and humid clim
+         "responses": ["It require a lot of heat and plenty of sunshine.", "It prefers warm and humid climate.","Cotton is a plant that needs a long frost-free period."]
+        },
+	{"tag": "wheatweather",
+         "patterns": ["which weather is suitable for wheat?", "what is
