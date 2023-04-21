@@ -69,4 +69,7 @@
         },
 	{"tag": "bajraweather",
          "patterns": ["which weather is suitable for bajra?", "what is temperature for bajra crop?", "bajra grows in which temperature?", "temperature for bajra", "temperature require for bajra crop?"],
-         "responses": ["Ideal temperature for bajra culti
+         "responses": ["Ideal temperature for bajra cultivation is between 20 oC to 30 oC.", "temperature is between 20 oC to 30 oC."]
+        },
+	{"tag": "bajracondition",
+         "patterns": ["which condition 
