@@ -68,4 +68,5 @@
          "responses": ["it needs 12 to 15 inches (31 to 38 centimeters) of water to produce a good crop.", "it needs a lot of sunshine, especially when the grains are filling.", "it grows best when the soil pH is between 6.0 and 7.0."]
         },
 	{"tag": "bajraweather",
-         "patterns": ["which weather is suitable for bajra?", "what is tempera
+         "patterns": ["which weather is suitable for bajra?", "what is temperature for bajra crop?", "bajra grows in which temperature?", "temperature for bajra", "temperature require for bajra crop?"],
+         "responses": ["Ideal temperature for bajra culti
