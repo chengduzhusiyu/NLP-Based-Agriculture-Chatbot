@@ -80,4 +80,5 @@
          "responses": ["temperature is between 21°C to 27°C", "It grows well in hot and humid climate with a temperature of 21°C to 27°C "]
         },
 	{"tag": "sugercanecondition",
-         "patterns": ["which condition is suitable for sugercane crop?", "which condition require
+         "patterns": ["which condition is suitable for sugercane crop?", "which condition required for sugercane crop?", "condition for sugercane crop","condition suitable for sugercane"],
+         "responses": ["annual rainfall require between 75cm.", "It is a
