@@ -76,4 +76,5 @@
          "responses": ["Bajra grows well in dry and warm climate conditions", "it's drought tolerant crop which requires low annual rainfall ranging between 40 cm to 60 cm.", "i'm here to solve your queries."]
         },
 	{"tag": "sugercaneweather",
-         "patterns": ["which weather is suitable for sugercane?", "what is temperature for sugercane crop?", "sugercane grows
+         "patterns": ["which weather is suitable for sugercane?", "what is temperature for sugercane crop?", "sugercane grows in which temperature?","temperature for sugercane"],
+         "responses": ["temperature is between 21°C to 27°C", "It grows well in hot and humid climate with a temperat
