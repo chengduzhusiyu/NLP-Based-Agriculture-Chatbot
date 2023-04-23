@@ -77,4 +77,7 @@
         },
 	{"tag": "sugercaneweather",
          "patterns": ["which weather is suitable for sugercane?", "what is temperature for sugercane crop?", "sugercane grows in which temperature?","temperature for sugercane"],
-         "responses": ["temperature is between 21°C to 27°C", "It grows well in hot and humid climate with a temperat
+         "responses": ["temperature is between 21°C to 27°C", "It grows well in hot and humid climate with a temperature of 21°C to 27°C "]
+        },
+	{"tag": "sugercanecondition",
+         "patterns": ["which condition is suitable for sugercane crop?", "which condition require
