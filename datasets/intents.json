@@ -84,4 +84,5 @@
          "responses": ["annual rainfall require between 75cm.", "It is a tropical as well as a subtropical crop.", "It grows well in hot and humid climate with a temperature of 21°C to 27°C"]
         },
 	{"tag": "riceweather",
-         "patt
+         "patterns": ["which weather is suitable for rice?", "what is temperature for rice crop?", "rice grows in which temperature?","temperature for rice"],
+         "respon
