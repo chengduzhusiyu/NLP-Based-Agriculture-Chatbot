@@ -88,4 +88,5 @@
          "responses": ["The average temperature required throughout the life period of the crop ranges from 21 to 37º C.", "the average temperature is between 21 to 37ºC"]
         },
 	{"tag": "ricecondition",
-         "patterns": ["which condition is suitable for rice crop?", "which condition required for rice crop?", "condition for rice crop","c
+         "patterns": ["which condition is suitable for rice crop?", "which condition required for rice crop?", "condition for rice crop","condition suitable for rice"],
+         "responses": ["Rice crop needs a hot and humid climate.","Rice grows on a variety of soils like silts, loams and gravels.", "It is best suited to regions which h
