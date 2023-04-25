@@ -87,4 +87,5 @@
          "patterns": ["which weather is suitable for rice?", "what is temperature for rice crop?", "rice grows in which temperature?","temperature for rice"],
          "responses": ["The average temperature required throughout the life period of the crop ranges from 21 to 37º C.", "the average temperature is between 21 to 37ºC"]
         },
-	
+	{"tag": "ricecondition",
+         "patterns": ["which condition is suitable for rice crop?", "which condition required for rice crop?", "condition for rice crop","c
