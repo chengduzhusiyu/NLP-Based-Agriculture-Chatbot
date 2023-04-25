@@ -96,4 +96,5 @@
          "responses": ["It seems that plant will grow best when the mean temperature is from 21-26.5°C.", "It grows well with a temperature of 21°C to 26.5°C "]
         },
 	{"tag": "groundnutcondition",
-         "patterns": ["which condition is suitable for groundnut crop?", "which c
+         "patterns": ["which condition is suitable for groundnut crop?", "which condition required for groundnut crop?", "condition for groundnut crop","condition suitable for groundnut"],
+         "responses": ["it require well distributed rainfall at lea
