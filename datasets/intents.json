@@ -97,4 +97,7 @@
         },
 	{"tag": "groundnutcondition",
          "patterns": ["which condition is suitable for groundnut crop?", "which condition required for groundnut crop?", "condition for groundnut crop","condition suitable for groundnut"],
-         "responses": ["it require well distributed rainfall at lea
+         "responses": ["it require well distributed rainfall at least 50 cm during growing season", "it grows in abundance of sunshine and relatively warm temperatures."]
+        },
+	{"tag": "marketprice",
+         "patterns": ["What is the mar
