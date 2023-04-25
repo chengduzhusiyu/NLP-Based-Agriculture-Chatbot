@@ -92,4 +92,5 @@
          "responses": ["Rice crop needs a hot and humid climate.","Rice grows on a variety of soils like silts, loams and gravels.", "It is best suited to regions which have high humidity, prolonged sunshine and an assured supply of water.", "The average temperature required throughout the life period of the crop ranges from 21 to 37º C."]
         },
 	{"tag": "groundnutweather",
-         "patterns": ["which weather is suitable for groundnut?", "what is temperature for groundnut crop?", "groundnut gr
+         "patterns": ["which weather is suitable for groundnut?", "what is temperature for groundnut crop?", "groundnut grows in which temperature?","temperature for groundnut"],
+         "responses": ["It seems that plant will grow best when the mean temperature is from
