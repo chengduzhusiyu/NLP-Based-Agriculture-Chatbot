@@ -100,4 +100,5 @@
          "responses": ["it require well distributed rainfall at least 50 cm during growing season", "it grows in abundance of sunshine and relatively warm temperatures."]
         },
 	{"tag": "marketprice",
-         "patterns": ["What is the mar
+         "patterns": ["What is the market price of rice?", "How much is the cost of 10 kgs of wheat?", "What are the prices of sugarcane?"],
+         "responses": ["please visit our application.",
