@@ -101,4 +101,7 @@
         },
 	{"tag": "marketprice",
          "patterns": ["What is the market price of rice?", "How much is the cost of 10 kgs of wheat?", "What are the prices of sugarcane?"],
-         "responses": ["please visit our application.",
+         "responses": ["please visit our application.", "please visit our website for more detail.", "i request you to please visit our website."]
+        },
+	{"tag": "wassup",
+         "patterns": ["Wassup?", "What are you 
