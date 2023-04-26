@@ -107,4 +107,6 @@
          "patterns": ["Wassup?", "What are you doing?", "What is up with you?", "What are you up to?", "How is it going?"],
          "responses": ["i'm just chilling.", "i am enjoying day.", "i'm fine."]
         },
-	{"tag": "maize
+	{"tag": "maizeweather",
+         "patterns": ["what is temperature for maize crop?", "maize grows in which temperature?", "temperature for maize"],
+         "responses": ["A temper
