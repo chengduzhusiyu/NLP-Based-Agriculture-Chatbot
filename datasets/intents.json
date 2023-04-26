@@ -116,4 +116,5 @@
          "responses": ["A temperature of 21°C- 27°C and 50-100cm rainfall is suitable for its cultivation.", "A 50-100cm rainfall is suitable for its cultivation.", "Alternate spells of rains and sunny weather are ideal for maize.", "It grows well in alluvial and red soils with good drainage."]
         },
 	{"tag": "farmerscheme",
-         "patterns": ["Import
+         "patterns": ["Important government policies for farmer", "indian government scheme for indian farmer", "which scheme is most helpful to indian farmer"],
+         "responses": ["
