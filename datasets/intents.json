@@ -104,4 +104,7 @@
          "responses": ["please visit our application.", "please visit our website for more detail.", "i request you to please visit our website."]
         },
 	{"tag": "wassup",
-         "patterns": ["Wassup?", "What are you 
+         "patterns": ["Wassup?", "What are you doing?", "What is up with you?", "What are you up to?", "How is it going?"],
+         "responses": ["i'm just chilling.", "i am enjoying day.", "i'm fine."]
+        },
+	{"tag": "maize
