@@ -113,4 +113,7 @@
         },
 	{"tag": "maizecondition",
          "patterns": ["which condition is suitable for maize crop?", "which condition required for maize crop?", "condition suitable for maize", "land for maize crop"],
-         "responses": ["A temperature of 21°C- 27°C and 50-100cm rainfall is suitable for its cultivation.", "A 50-100cm rainfall is suitable for its cultivation.", "Alternate spells
+         "responses": ["A temperature of 21°C- 27°C and 50-100cm rainfall is suitable for its cultivation.", "A 50-100cm rainfall is suitable for its cultivation.", "Alternate spells of rains and sunny weather are ideal for maize.", "It grows well in alluvial and red soils with good drainage."]
+        },
+	{"tag": "farmerscheme",
+         "patterns": ["Import
