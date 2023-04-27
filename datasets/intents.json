@@ -117,4 +117,5 @@
         },
 	{"tag": "farmerscheme",
          "patterns": ["Important government policies for farmer", "indian government scheme for indian farmer", "which scheme is most helpful to indian farmer"],
-         "responses": ["PM-Kisan Scheme,Pradhan Mantri Kisan Maandhan yojana,Pradhan Mantri Fasal Bima Yojana (PMFBY),Paramparagat Krishi Vikas Yojana (PKVY),etc.", "PM-Kisan Scheme,Pradhan Ma
+         "responses": ["PM-Kisan Scheme,Pradhan Mantri Kisan Maandhan yojana,Pradhan Mantri Fasal Bima Yojana (PMFBY),Paramparagat Krishi Vikas Yojana (PKVY),etc.", "PM-Kisan Scheme,Pradhan Mantri Krishi Sinchai Yojana (PMKSY),etc.", "Pradhan Mantri Kisan Maandhan yojana, Pradhan Mantri Fasal Bima Yojana (PMFBY),etc. for more details please visit our website."]
+  
