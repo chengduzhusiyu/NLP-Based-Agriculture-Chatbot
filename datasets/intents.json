@@ -120,4 +120,5 @@
          "responses": ["PM-Kisan Scheme,Pradhan Mantri Kisan Maandhan yojana,Pradhan Mantri Fasal Bima Yojana (PMFBY),Paramparagat Krishi Vikas Yojana (PKVY),etc.", "PM-Kisan Scheme,Pradhan Mantri Krishi Sinchai Yojana (PMKSY),etc.", "Pradhan Mantri Kisan Maandhan yojana, Pradhan Mantri Fasal Bima Yojana (PMFBY),etc. for more details please visit our website."]
         },
 	{"tag": "farmerpmkisan",
-         "patterns": ["what is PM kisan scheme", "PM kisan", "which are benefits of PM kisan scheme?", "how PM kisan scheme is he
+         "patterns": ["what is PM kisan scheme", "PM kisan", "which are benefits of PM kisan scheme?", "how PM kisan scheme is helpful to people?"],
+         "responses": ["Pradhan Mantri Kisan Samman Nidhi (PM-KISAN) is a Central Sector scheme with 100% funding from Government of India. for more details visit
